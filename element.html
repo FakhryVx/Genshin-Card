@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game - Element</title>
+    <link rel="stylesheet" href="element.css">
+</head></head>
+<body>
+    <div class="container">
+        <h1>Memory Card Game: Element</h1>
+        <div class="info" id="info"></div>
+        <div class="memory-game" id="game-board">
+        </div>
+        <button class="restart-btn" onclick="startGame()">Ulang</button>
+    </div>
+
+    <div id="overlay" class="overlay" style="display:none;">
+    <div class="overlay-content">
+        <h2>Selamat!</h2>
+        <p id="overlay-moves"></p>
+        <p id="overlay-time"></p>
+        <button onclick="restartGame()">Main Lagi</button>
+    </div>
+</div>
+    <script src="element.js"></script>
+</body>
+</html>
